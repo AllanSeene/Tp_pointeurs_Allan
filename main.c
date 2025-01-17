@@ -3,11 +3,10 @@
 #include "header.h"
 int main()
 {
-struct Menu photoMenus;
-photoMenus.option ="s";
+struct Menu photoMenus[]={"Regarder une photo", "Prendre une photo"};
 struct Application photoApp;
-photoApp.nom="a";
-photoApp.nb_menus=7;
-photoApp.menus;
+photoApp.nb_menus=2;
+photoApp.nom="--Photos--";
+photoApp.menus= photoMenus;
   return 0;
 }

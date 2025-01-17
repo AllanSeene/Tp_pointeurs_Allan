@@ -12,4 +12,6 @@ struct Application
     int nb_menus;
 };
 
+
+void displayMenu(const Application *app);
 #endif
